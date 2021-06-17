@@ -1,7 +1,5 @@
 import React from 'react';
 import "./topbar.scss";
-import PersonIcon from '@material-ui/icons/Person';
-import MailIcon from '@material-ui/icons/Mail';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -10,12 +8,6 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
 
         <div className="left">
           <a href="#intro" className="logo">Dasha K.</a>
-
-          <div className="itemContainer">
-            <MailIcon className="icon" />
-            <span>mail@mail.com</span>
-          </div>
-
         </div>
 
         <div className="right">
